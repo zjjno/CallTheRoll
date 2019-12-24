@@ -1,0 +1,18 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="inputView">
+    <input class="input" placeholder="请输入名单名称" bindinput="inputTitle" value="{{title}}"></input>
+    <view class="call" bindtap="bingo">点名</view>
+  </view>
+  <view class="inputView">
+    <input class="input" placeholder="请输入姓名" bindinput="inputName" value="{{name}}"></input>
+    <view class="add" bindtap="addName">添加</view>
+  </view>
+  <view class="list">
+    <block wx:for="{{list}}" wx:for-item="item">
+      <mp-slideview buttons="{{slideButtons}}" bindbuttontap="slideButtonTap" data-index="{{index}}">
+        <mp-cell value="{{item}}" footer=""></mp-cell>
+      </mp-slideview>
+    </block>
+  </view>
+</view>

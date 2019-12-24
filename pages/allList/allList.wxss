@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  height: 100rpx;
+  margin: 20rpx;
+}

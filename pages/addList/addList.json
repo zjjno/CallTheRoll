@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "名单列表",
+  "usingComponents": {
+    "mp-cell": "../../components/cell/cell",
+    "mp-slideview": "../../components/slideview/slideview"
+  }
+}

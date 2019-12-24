@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/allList/allList",
+    "pages/addList/addList"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "随机点名",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
